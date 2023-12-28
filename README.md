@@ -79,9 +79,39 @@
 * local mater ----> **master**
 * remote master ----> **origin master**
 
+**5th Part :**
+
+* cd Desktop/...
+* git branch
+* git status
+* git restore --stage ***file_name***
+* git restore ***file_name*** --------*new branch is restored not master*
+* git status
+* git checkout master
+* git log
+* git pull --------*pull is used to fetch changes from remote repository & in this case no update as no changes is made in origin master from the time of copy*
+* git log -3
+* git push
+* **provide_id** --------*origin master is updated as master branch had two commits*
+
+**6th Part :**
+
+* git branch
+* git log -3
+* **code_changes**
+* git status
+* git diff
+* git status
+* git add ***file_name***
+* git status
+* git commit --amend --------*when we want to make changes with same commit id and don't want another commit id then we use this*
+* **press Esc then wq then enter**
 
 
 
+                                  -----------------------------xxxxxxxxxxxxxxxxxxxxxxxx-------------------------------
+
+  
 
 ## GITHUB
 
